@@ -17,7 +17,7 @@ function respond() {
   name9 = /^\Gray #$/;
   name10 = /^\Krysinksi #$/;
   name11 = /^\Trivitt #$/;
-  name12 = /^\Huntly #$/;
+  name12 = /^\Moniot #$/;
   
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -106,7 +106,7 @@ function postMessage(num) {
   else if(num == 11)
     botResponse = 'Trivitt: 7752302891';
   else if(num == 12)
-    botResponse = 'Huntly: 7022783701';
+    botResponse = 'LTC Moniot: \n775-682-7471 \ndmoniot@unr.edu';
   
   botResponse += '\n\n*beep boop*';
     
