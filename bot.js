@@ -106,7 +106,59 @@ function postMessage(num) {
   else if(num == 11)
     botResponse = 'Trivitt: 7752302891';
   else if(num == 12)
-    botResponse = 'Huntly: 7022783701';
+    botResponse = 'LTC Moniot: \n 775-682-7471 \n dmoniot@unr.edu';
+  else if(num == 13)
+    botResponse = 'CPT Stackhouse: \n  775-682-7468 \n  astackhouse@unr.edu';
+  else if(num == 14)
+    botResponse = 'SFC Howes: \n  775-350-5061  \n rhowes@unr.edu';
+  else if(num == 15)
+    botResponse = 'SSG Roberts: \n  775-682-7476  \n  blakeroberts@unr.edu';
+  else if(num == 16)
+    botResponse = 'Mr. Gnio: \n 775-682-7472  \n  tgniotczynski@unr.edu';
+  else if(num == 17)
+    botResponse = 'Mrs. Beach: \n 775-682-7473 \n lharris@unr.edu';
+  else if(num == 18)
+    botResponse = 'Mr. Lloyd: \n  775-682-7470 \n jameslloyd@unr.edu';
+  else if(num == 20)
+    botResponse = 'Berggren:  \n  775-434-4663 \n cberggren2000@gmail.com';
+  else if(num == 21)
+    botResponse = 'Bowers: \n 916-717-7258  \n jmb0002@gmail.com';
+  else if(num == 22)
+     botResponse = 'Esparza: \n 916-295-2616 \n jacksonwesparza@gmail.com';
+  else if(num == 23)
+    botResponse = 'Hanson: \n 530-314-0574 \n mrmikeray1@gmail.com';
+  else if(num == 24)
+    botResponse = 'Hernandez: \n  209-329-5123 \n rubbertoe1217@gmail.com';
+  else if(num == 25)
+    botResponse = 'Jansen: \n 702-460-0050 \n ajansen@nevada.unr.edu';
+  else if(num == 26)
+    botResponse = 'Littleford: \n 916-496-4434 \n jt.littleford@gmail.com';
+  else if(num == 27)
+    botResponse = 'Magel: \n  702-557-7859 \n kmagel@nevada.unr.edu';
+  else if(num == 28)
+    botResponse = 'McNamara: \n 775-830-9698 \n brennan.mcnamara@gmail.com';
+  else if(num == 29)
+    botResponse = 'Mullins: \n  702-750-5846 \n djmullin13@gmail.com';
+  else if(num == 31)
+    botResponse = 'Perkins: \n  775-420-7375 \n ryleeperkins143@gmail.com';
+  else if(num == 32)
+    botResponse = 'Phillopy: \n 970-426-8767 \n npphillips90@gmail.com';
+  else if(num == 33)
+    botResponse = 'Publico: \n  925-565-7208 \n scienn.publico@yahoo.com';
+  else if(num == 34)
+    botResponse = 'Rodriguez: \n  775-409-0192 \n meybelinr2@gmail.com';
+  else if(num == 35)
+    botResponse = 'Russom: \n 702-686-5189 \n warsiy56@gmail.com';
+  else if(num == 36)
+    botResponse = 'Sanderson: \n  702-956-7190 \n bsanderson@outlook.com';
+  else if(num == 37)
+    botResponse = 'Spencer: \n  415-827-8749 \n parkerspencer00@gmail.com';
+  else if(num == 38)
+    botResponse = 'Taylor: \n  775-470-0943 \n  aaliyahtaylor755@gmail.com';
+  else if(num == 39)
+    botResponse = 'Thisson: \n  951-314-1393 \n jonasthissen@outlook.com';
+  else if(num == 40)
+    botResponse = 'Weber: \n 702-469-2584 \n  brandon.1842700@gmail.com';
   
   botResponse += '\n\n*beep boop*';
     
