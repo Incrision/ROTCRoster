@@ -70,6 +70,34 @@ function respond() {
   } else if (request.text && name12.test(request.text)) {
     this.res.writeHead(200);
     postMessage(12);
+    this.res.end();
+  } else if (request.text && name13.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(13);
+    this.res.end();   
+  } else if (request.text && name14.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(14);
+    this.res.end();   
+  } else if (request.text && name15.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(15);
+    this.res.end();   
+  } else if (request.text && name16.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(16);
+    this.res.end();   
+  } else if (request.text && name17.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(17);
+    this.res.end();   
+  } else if (request.text && name18.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(18);
+    this.res.end();   
+  } else if (request.text && name20.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(20);
     this.res.end();   
   } else {
     console.log("don't care");
