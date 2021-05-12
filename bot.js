@@ -222,7 +222,7 @@ function postMessage(num) {
   else if(num == 2)
     botResponse = 'Terry: \n  7757425829 \n gwynterry@nevada.unr.edu';
   else if(num == 3)
-    botResponse = 'Pendleton: \n  702-467-4577 \n kzn1015@gmail.com'';
+    botResponse = 'Pendleton: \n  702-467-4577 \n kzn1015@gmail.com';
   else if(num == 4)
     botResponse = 'Higa: \n 7025402307 \n dylanhiga@nevada.unr.edu';
   else if(num == 5)
