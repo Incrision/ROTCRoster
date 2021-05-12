@@ -17,7 +17,33 @@ function respond() {
   name9 = /^\Gray #$/;
   name10 = /^\Krysinksi #$/;
   name11 = /^\Trivitt #$/;
-  name12 = /^\Huntly #$/;
+  name11 = /^\Moniot #$/;
+  name13 = /^\Stackhouse #$/;
+  name14 = /^\Howes #$/;
+  name15 = /^\Roberts #$/;
+  name16 = /^\Gnio #$/;
+  name17 = /^\Beach #$/;
+  name18 = /^\Lloyd #$/;
+  name20 = /^\Berggren #$/;
+  name21 = /^\Bowers #$/;
+  name22 = /^\Esparza #$/;
+  name23 = /^\Hanson #$/;
+  name24 = /^\Hernandez #$/;
+  name25 = /^\Jansen #$/;
+  name26 = /^\Littleford #$/;
+  name27 = /^\Magel #$/;
+  name28 = /^\McNamara #$/;
+  name29 = /^\Mullins #$/;
+  name31 = /^\Perkins #$/;
+  name32 = /^\Phillips #$/;
+  name33 = /^\Publico #$/;
+  name34 = /^\Rodriguez #$/;
+  name35 = /^\Russom #$/;
+  name36 = /^\Sanderson #$/;
+  name37 = /^\Spencer #$/;
+  name38 = /^\Taylor #$/;
+  name39 = /^\Thisson #$/;
+  name40 = /^\Weber #$/;
   
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
