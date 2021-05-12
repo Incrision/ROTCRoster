@@ -22,7 +22,7 @@ function respond() {
   name14 = /^\Howes #$/;
   name15 = /^\Roberts #$/;
   name16 = /^\Gnio #$/;
-  name17 = /^\Beach #$/;
+  name47 = /^\Beach #$/;
   name18 = /^\Lloyd #$/;
   name20 = /^\Berggren #$/;
   
@@ -94,9 +94,9 @@ function respond() {
     this.res.writeHead(200);
     postMessage(16);
     this.res.end();   
-  } else if (request.text && name17.test(request.text)) {
+  } else if (request.text && name47.test(request.text)) {
     this.res.writeHead(200);
-    postMessage(17);
+    postMessage(47);
     this.res.end();   
   } else if (request.text && name18.test(request.text)) {
     this.res.writeHead(200);
@@ -150,7 +150,7 @@ function postMessage(num) {
     botResponse = 'SSG Roberts: \n  775-682-7476  \n  blakeroberts@unr.edu';
   else if(num == 16)
     botResponse = 'Mr. Gnio: \n 775-682-7472  \n  tgniotczynski@unr.edu';
-  else if(num == 17)
+  else if(num == 47)
     botResponse = 'Mrs. Beach: \n 775-682-7473 \n lharris@unr.edu';
   else if(num == 18)
     botResponse = 'Mr. Lloyd: \n  775-682-7470 \n jameslloyd@unr.edu';
