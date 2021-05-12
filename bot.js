@@ -18,6 +18,32 @@ function respond() {
   name10 = /^\Krysinksi #$/;
   name11 = /^\Trivitt #$/;
   name12 = /^\Moniot #$/;
+  name13 = /^\Stackhouse #$/;
+  name14 = /^\Howes #$/;
+  name15 = /^\Roberts #$/;
+  name16 = /^\Gnio #$/;
+  name17 = /^\Beach #$/;
+  name18 = /^\Lloyd #$/;
+  name20 = /^\Berggren #$/;
+  name21 = /^\Bowers #$/;
+  name22 = /^\Esparza #$/;
+  name23 = /^\Hanson #$/;
+  name24 = /^\Hernandez #$/;
+  name25 = /^\Jansen #$/;
+  name26 = /^\Littleford #$/;
+  name27 = /^\Magel #$/;
+  name28 = /^\McNamara #$/;
+  name29 = /^\Mullins #$/;
+  name31 = /^\Perkins #$/;
+  name32 = /^\Phillips #$/;
+  name33 = /^\Publico #$/;
+  name34 = /^\Rodriguez #$/;
+  name35 = /^\Russom #$/;
+  name36 = /^\Sanderson #$/;
+  name37 = /^\Spencer #$/;
+  name38 = /^\Taylor #$/;
+  name39 = /^\Thisson #$/;
+  name40 = /^\Weber #$/;
   
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -71,6 +97,114 @@ function respond() {
     this.res.writeHead(200);
     postMessage(12);
     this.res.end();   
+  } else if (request.text && name13.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(13);
+    this.res.end();   
+  } else if (request.text && name14.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(14);
+    this.res.end();   
+  } else if (request.text && name15.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(15);
+    this.res.end();   
+  } else if (request.text && name16.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(16);
+    this.res.end();   
+  } else if (request.text && name17.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(17);
+    this.res.end();   
+  } else if (request.text && name18.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(18);
+    this.res.end();   
+  } else if (request.text && name20.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(20);
+    this.res.end();   
+  } else if (request.text && name21.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(21);
+    this.res.end();   
+  } else if (request.text && name22.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(22);
+    this.res.end();   
+  } else if (request.text && name23.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(23);
+    this.res.end();   
+  } else if (request.text && name24.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(24);
+    this.res.end();   
+  } else if (request.text && name25.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(25);
+    this.res.end();   
+  } else if (request.text && name26.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(26);
+    this.res.end();   
+  } else if (request.text && name27.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(27);
+    this.res.end();   
+  } else if (request.text && name28.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(28);
+    this.res.end();   
+  } else if (request.text && name29.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(29);
+    this.res.end();   
+  } else if (request.text && name30.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(30);
+    this.res.end();   
+  } else if (request.text && name31.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(31);
+    this.res.end();   
+  } else if (request.text && name32.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(32);
+    this.res.end();   
+  } else if (request.text && name33.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(33);
+    this.res.end();   
+  } else if (request.text && name34.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(34);
+    this.res.end();   
+  } else if (request.text && name35.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(35);
+    this.res.end();   
+  } else if (request.text && name36.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(36);
+    this.res.end();   
+  } else if (request.text && name37.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(37);
+    this.res.end();   
+  } else if (request.text && name38.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(38);
+    this.res.end();
+  } else if (request.text && name39.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(39);
+    this.res.end();
+  } else if (request.text && name40.test(request.text)) {
+    this.res.writeHead(200);
+    postMessage(40);
+    this.res.end();
   } else {
     console.log("don't care");
     this.res.writeHead(200);
@@ -84,13 +218,13 @@ function postMessage(num) {
   if(num == 99)
     botResponse = cool();
   else if(num == 1)
-    botResponse = 'Dye: 7024974714';
+    botResponse = 'Dye: \n  7024974714 \n cdye@nevada.unr.edu';
   else if(num == 2)
-    botResponse = 'Terry: 7757425829';
+    botResponse = 'Terry: \n  7757425829 \n gwynterry@nevada.unr.edu';
   else if(num == 3)
-    botResponse = 'Pendleton: 7025927322';
+    botResponse = 'Pendleton: \n  702-467-4577 \n kzn1015@gmail.com'';
   else if(num == 4)
-    botResponse = 'Higa: 7025402307';
+    botResponse = 'Higa: \n 7025402307 \n dylanhiga@nevada.unr.edu';
   else if(num == 5)
     botResponse = 'Jaeck: 7753035789';
   else if(num == 6)
@@ -128,7 +262,7 @@ function postMessage(num) {
   else if (num == 23)
     botResponse = 'Hanson: \n 530-314-0574 \n mrmikeray1@gmail.com';
   else if (num == 24)
-    botResponse = 'Hernandez: \n  209-329-5123 \n rubbertoe1217@gmail.com";
+    botResponse = 'Hernandez: \n  209-329-5123 \n rubbertoe1217@gmail.com';
   else if (num == 25)
     botResponse = 'Jansen: \n 702-460-0050 \n ajansen@nevada.unr.edu';
   else if (num == 26)
@@ -139,8 +273,6 @@ function postMessage(num) {
     botResponse = 'McNamara: \n 775-830-9698 \n brennan.mcnamara@gmail.com';
   else if (num == 29)
     botResponse = 'Mullins: \n  702-750-5846 \n djmullin13@gmail.com';
-  else if (num == 30)
-    botResponse = 'Pendleton: \n  702-467-4577 \n kzn1015@gmail.com';
   else if (num == 31)
     botResponse = 'Perkins: \n  775-420-7375 \n ryleeperkins143@gmail.com';
   else if (num == 32)
