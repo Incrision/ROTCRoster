@@ -16,7 +16,7 @@ function respond() {
   name8 = /^\Iverson #$/;
   name9 = /^\Gray #$/;
   name10 = /^\Krysinksi #$/;
-  name11 = /^\Trivitt #$/;
+  name11 = /^\Beach #$/;
   name12 = /^\Moniot #$/;
   name13 = /^\Stackhouse #$/;
   name14 = /^\Howes #$/;
@@ -139,7 +139,7 @@ function postMessage(num) {
   else if(num == 10)
     botResponse = 'Krysinksi: 7755153029';
   else if(num == 11)
-    botResponse = 'Trivitt: 7752302891';
+    botResponse = 'Mrs. Beach: \n 775-682-7473 \n lharris@unr.edu';
   else if(num == 12)
     botResponse = 'LTC Moniot: \n 775-682-7471 \n dmoniot@unr.edu';
   else if(num == 13)
