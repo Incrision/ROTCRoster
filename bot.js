@@ -16,13 +16,13 @@ function respond() {
   name8 = /^\Iverson #$/;
   name9 = /^\Gray #$/;
   name10 = /^\Krysinksi #$/;
-  name11 = /^\Beach #$/;
+  name11 = /^\Ach #$/;
   name12 = /^\Moniot #$/;
   name13 = /^\Stackhouse #$/;
   name14 = /^\Howes #$/;
   name15 = /^\Roberts #$/;
   name16 = /^\Gnio #$/;
-  name17 = /^\Dog #$/;
+  name17 = /^\Beach #$/;
   name18 = /^\Lloyd #$/;
   name20 = /^\Berggren #$/;
   
