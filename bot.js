@@ -22,7 +22,7 @@ function respond() {
   name14 = /^\Howes #$/;
   name15 = /^\Roberts #$/;
   name16 = /^\Gnio #$/;
-  name47 = /^\Moach #$/;
+  name17 = /^\Dog #$/;
   name18 = /^\Lloyd #$/;
   name20 = /^\Berggren #$/;
   
@@ -94,9 +94,9 @@ function respond() {
     this.res.writeHead(200);
     postMessage(16);
     this.res.end();   
-  } else if (request.text && name47.test(request.text)) {
+  } else if (request.text && name17.test(request.text)) {
     this.res.writeHead(200);
-    postMessage(47);
+    postMessage(17);
     this.res.end();   
   } else if (request.text && name18.test(request.text)) {
     this.res.writeHead(200);
