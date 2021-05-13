@@ -150,7 +150,7 @@ function postMessage(num) {
     botResponse = 'SSG Roberts: \n  775-682-7476  \n  blakeroberts@unr.edu';
   else if(num == 16)
     botResponse = 'Mr. Gnio: \n 775-682-7472  \n  tgniotczynski@unr.edu';
-  else if(num == 47)
+  else if(num == 17)
     botResponse = 'Mrs. Beach: \n 775-682-7473 \n lharris@unr.edu';
   else if(num == 18)
     botResponse = 'Mr. Lloyd: \n  775-682-7470 \n jameslloyd@unr.edu';
