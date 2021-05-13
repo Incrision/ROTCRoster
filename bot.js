@@ -22,9 +22,8 @@ function respond() {
   name14 = /^\Howes #$/;
   name15 = /^\Roberts #$/;
   name16 = /^\Gnio #$/;
-  name17 = /^\Beach #$/;
+  name17 = /^\Supply #$/;
   name18 = /^\Lloyd #$/;
-  name20 = /^\Berggren #$/;
   
   if(request.text && botRegex.test(request.text)) {
     this.res.writeHead(200);
@@ -102,10 +101,6 @@ function respond() {
     this.res.writeHead(200);
     postMessage(18);
     this.res.end();   
-  } else if (request.text && name20.test(request.text)) {
-    this.res.writeHead(200);
-    postMessage(20);
-    this.res.end();   
   } else {
     console.log("don't care");
     this.res.writeHead(200);
@@ -154,8 +149,6 @@ function postMessage(num) {
     botResponse = 'Mrs. Beach: \n 775-682-7473 \n lharris@unr.edu';
   else if(num == 18)
     botResponse = 'Mr. Lloyd: \n  775-682-7470 \n jameslloyd@unr.edu';
-  else if(num == 20)
-    botResponse = 'Berggren:  \n  775-434-4663 \n cberggren2000@gmail.com';
   
   botResponse += '\n\n*beep boop*';
     
