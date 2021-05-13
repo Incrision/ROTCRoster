@@ -22,7 +22,7 @@ function respond() {
   name14 = /^\Howes #$/;
   name15 = /^\Roberts #$/;
   name16 = /^\Gnio #$/;
-  name47 = /^\Beach #$/;
+  name47 = /^\Moach #$/;
   name18 = /^\Lloyd #$/;
   name20 = /^\Berggren #$/;
   
