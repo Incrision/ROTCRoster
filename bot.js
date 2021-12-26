@@ -11,8 +11,8 @@ function respond() {
   name3 = /^\Maj #$/;
   name4 = /^\Roster #$/;
   name5 = /^\LDP #$/;
-  name6 = /^\Chavez #$/;
-  name7 = /^\Munoz #$/;
+  name6 = /^\Flip #$/;
+  name7 = /^\Roll #$/;
   name8 = /^\Iverson #$/;
   name9 = /^\Gray #$/;
   name10 = /^\Krysinksi #$/;
@@ -124,9 +124,14 @@ function postMessage(num) {
   else if(num == 5)
     botResponse = 'https://docs.google.com/spreadsheets/d/18fM5bohd8KJ9lc5FpKRMLWFHbjM6aIGX/edit#gid=634745477';
   else if(num == 6)
-    botResponse = 'Chavez: 7028852449';
+  {
+    if(Math.floor(Math.random() * 2) == 0)
+      botResponse = 'Heads';
+    else
+      botResponse = 'Tails'
+  }
   else if(num == 7)
-    botResponse = 'Munoz: 9259150611';
+    botResponse = String(Math.floor(Math.random() * 6) + 1);
   else if(num == 8)
     botResponse = 'Iverson: 7753158902';
   else if(num == 9)
