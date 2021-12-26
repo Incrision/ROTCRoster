@@ -5,10 +5,10 @@ var botID = process.env.BOT_ID;
 
 function respond() {
   var request = JSON.parse(this.req.chunks[0]),
-      botRegex = /^\Thanks$/;
+      botRegex = /^\Good bot$/;
   name1 = /^\Dye #$/;
-  name2 = /^\Terry #$/;
-  name3 = /^\Pendleton #$/;
+  name2 = /^\Dimeo #$/;
+  name3 = /^\Maj #$/;
   name4 = /^\Higa #$/;
   name5 = /^\Jaeck #$/;
   name6 = /^\Chavez #$/;
@@ -19,7 +19,7 @@ function respond() {
   name11 = /^\Ach #$/;
   name12 = /^\Moniot #$/;
   name13 = /^\Stackhouse #$/;
-  name14 = /^\Howes #$/;
+  name14 = /^\Senz #$/;
   name15 = /^\Roberts #$/;
   name16 = /^\Gnio #$/;
   name17 = /^\Supply #$/;
@@ -114,11 +114,11 @@ function postMessage(num) {
   if(num == 99)
     botResponse = cool();
   else if(num == 1)
-    botResponse = 'Dye: 7024974714';
+    botResponse = 'Dye: \n 702-497-4714 \n cdye@nevada.unr.edu';
   else if(num == 2)
-    botResponse = 'Terry: 7757425829';
+    botResponse = 'CPT DiMeo: \n 401-641-1415 \n mdimeo@unr.edu';
   else if(num == 3)
-    botResponse = 'Pendleton: 7025927322';
+    botResponse = 'Maj Bauleke: \n rbauleke@unr.edu';
   else if(num == 4)
     botResponse = 'Higa: 7025402307';
   else if(num == 5)
@@ -140,7 +140,7 @@ function postMessage(num) {
   else if(num == 13)
     botResponse = 'CPT Stackhouse: \n  775-682-7468 \n  astackhouse@unr.edu';
   else if(num == 14)
-    botResponse = 'SFC Howes: \n  775-350-5061  \n rhowes@unr.edu';
+    botResponse = 'MSG Senz: \n  240-217-8343  \n bsenz@unr.edu';
   else if(num == 15)
     botResponse = 'SSG Roberts: \n  775-682-7476  \n  blakeroberts@unr.edu';
   else if(num == 16)
