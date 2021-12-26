@@ -9,8 +9,8 @@ function respond() {
   name1 = /^\Dye #$/;
   name2 = /^\Dimeo #$/;
   name3 = /^\Maj #$/;
-  name4 = /^\Higa #$/;
-  name5 = /^\Jaeck #$/;
+  name4 = /^\Roster #$/;
+  name5 = /^\LDP #$/;
   name6 = /^\Chavez #$/;
   name7 = /^\Munoz #$/;
   name8 = /^\Iverson #$/;
@@ -120,9 +120,9 @@ function postMessage(num) {
   else if(num == 3)
     botResponse = 'Maj Bauleke: \n rbauleke@unr.edu';
   else if(num == 4)
-    botResponse = 'Higa: 7025402307';
+    botResponse = 'https://docs.google.com/spreadsheets/u/1/d/1wXzUxQz4r6D9RKLqjOOedD4Be2oVIBNc/edit#gid=789864109';
   else if(num == 5)
-    botResponse = 'Jaeck: 7753035789';
+    botResponse = 'https://docs.google.com/spreadsheets/d/18fM5bohd8KJ9lc5FpKRMLWFHbjM6aIGX/edit#gid=634745477';
   else if(num == 6)
     botResponse = 'Chavez: 7028852449';
   else if(num == 7)
